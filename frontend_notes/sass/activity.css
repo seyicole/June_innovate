@@ -2,13 +2,13 @@
 /* imported font families: "Poiret One", cursive; font-family: "Josefin Sans", sans-serif;    */
 /* elements */
 body {
-  background-color: #465362;
+  background-color: #95A5A6;
   margin: 0px;
 }
 
 h1 {
   font-family: "Poiret One", cursive;
-  color: hotpink;
+  color: blueviolet;
   text-align: center;
   margin-top: 0px;
   font-size: 3em;
@@ -23,16 +23,16 @@ h3 {
 }
 
 button {
-  background-color: #3c8181;
-  color: #eccee7;
-  border: #4f4db3 2px solid;
+  background-color: #1ABC9C;
+  color: #F7DC6F;
+  border: #A9DFBF 2px solid;
   padding: 15px;
 }
 
 button:hover {
-  background-color: #4f4db3;
-  color: #eccee7;
-  border: #3c8181 2px solid;
+  background-color: #A3E4D7;
+  color: #be7eb4;
+  border: #1ABC9C 2px solid;
   padding: 15px;
 }
 
@@ -40,7 +40,7 @@ nav {
   padding: 1% 0% 1% 0%;
   display: flex;
   justify-content: space-evenly;
-  background-color: #f9dc5c;
+  background-color: skyblue;
   margin-bottom: 1%;
 }
 
@@ -51,7 +51,7 @@ nav a {
 }
 
 nav a:hover {
-  color: #3c8181;
+  color: brown;
   text-decoration: none;
 }
 
@@ -61,7 +61,7 @@ nav a:hover {
   color: #011936;
   font-size: 1.1em;
   width: 70%;
-  border-top: #f9dc5c 10px solid;
+  border-top: skyblue 10px solid;
   min-height: 100vh;
   margin-left: auto;
   margin-right: auto;
@@ -74,8 +74,8 @@ nav a:hover {
   color: #011936;
   font-size: 1.1em;
   width: 60%;
-  background-color: #eccee7;
-  border-top: #3c8181 10px solid;
+  background-color: #EDBB99 ;
+  border-top: brown 10px solid;
   margin-left: auto;
   margin-right: auto;
   margin-top: 2%;
