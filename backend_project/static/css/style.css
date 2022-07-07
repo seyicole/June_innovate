@@ -6,3 +6,35 @@ body{
 h1{
     color: brown;
 }
+
+.nav{
+    display: flex;
+    background-color: burlywood;
+    border: 10px solid burlywood;
+}
+
+.nav > li {
+    flex: 1;
+}
+
+ul{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+    cursor: pointer;
+}
+
+@media all and (max-width: 400px) {  
+    .nav > li {  
+      flex-basis: 100%;  
+    }  
+}
+
+.error{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}

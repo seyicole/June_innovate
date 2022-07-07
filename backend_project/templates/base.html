@@ -3,11 +3,23 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/static/css/style.css">
+    <link rel="stylesheet" href="{{ url_for('static', filename='/css/style.css')}}">
     <title>Base</title>
 </head>
 <body>
-    {% block  content %} {% endblock %}
+    <nav>
+        <ul class="nav">
+           <li><a href="/home"></a>Home</li>
+           <li><a href="/page1">Page 1</a></li>
+           <li><a href="/page2">Page 2</a></li>
+           <li><a href="/page3">Page 3</a></li>
+           <li><a href="/page4">Page 4</a></li>
+           <li><a href="/page5">Page 5</a></li>
+        </ul>
+    </nav>
+    <div>
+        {% block  content %} {% endblock %}
+    </div>
     
 
     <!-- Javascript -->
