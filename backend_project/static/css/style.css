@@ -124,3 +124,11 @@ button {
     width: 60px;
     text-align: center;
 }
+.dark-mode{
+    background-color: #000;
+    color: #fff;
+}
+
+.dark-modeb{
+    background-color: darkslategray;
+}
