@@ -1,20 +1,20 @@
 console.log("Hello World");
 
-let myName = "Katy";
+let myName = "Olu";
 console.log(myName);
 
-const fullName = "Katherine";
+const fullName = "Oluseyi";
 console.log(fullName);
 
-myName = "Tarig";
+myName = "Imanah";
 console.log(myName);
 
 // fullName = "Katherine Emily"
 
-if (myName==="Katy") {
-    console.log("Hello Katy")
-} else if (myName==="Klong") {
-    console.log("Hello Klong")
+if (myName==="Olu") {
+    console.log("Hello Olu")
+} else if (myName==="Jane") {
+    console.log("Hello Jane")
 } else {
     console.log("Who are you?")
 }
