@@ -1,0 +1,55 @@
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.button1{
+    background-color: #dbdbdb;
+    padding: 15px;
+    border: 2px solid #212121;
+}
+
+.button2{
+    background-color: #dbdbdb;
+    padding: 15px;
+    border: 2px solid #212121;
+    transition-duration: 0.5s;
+}
+
+.button2:hover{
+    color: white;
+    background-color: #0a7012;
+    padding: 15px;
+    border: 2px solid #212121;
+}
+
+.button3{
+    background-color: #dbdbdb;
+    padding: 15px;
+    border: 2px solid #212121;
+    transition-duration: 0.5s;
+    box-shadow: 2px 2px grey;
+}
+
+.button3:hover{
+    color: white;
+    background-color: #0a7012;
+    padding: 15px;
+    border: 2px solid #212121;
+    cursor: pointer;
+}
+
+.button3:active{
+    box-shadow: 2px 1px grey;
+    transform: translateY(2px);
+}
+
+.button4{
+    background-color: red;
+    padding: 15px;
+    border: 2px solid black;
+    opacity: 0.5;
+    cursor: not-allowed;
+}
